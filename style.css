@@ -1,0 +1,1262 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+    color: inherit;
+    border: none;
+
+}
+
+img {
+    width: 100%;
+    height: 100%;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 1320px;
+    max-height: 50px;
+    gap: 1000px;
+}
+
+.sign_btn {
+    width: 100px;
+    height: 50px;
+    background-color: #0D6EFD;
+    border-radius: 10px;
+}
+
+.sign_btn:hover {
+    background-color: #08439c;
+    cursor: pointer;
+}
+
+#head1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 66px;
+    background-color: #F8F9FA;
+}
+
+#head2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    max-width: 1520px;
+    min-height: 612px;
+    background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+    object-fit: cover;
+}
+
+.head2_div {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: skyblue;
+    opacity: 0.2;
+    z-index: -1;
+}
+
+.generate {
+    width: 536px;
+    height: 116px;
+    color: white;
+    font-size: 40px;
+    margin: 0px 0px 48px;
+    text-align: center;
+}
+
+.umumi {
+    width: 636px;
+    height: 228px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.input1 {
+    width: 532px;
+    height: 64px;
+    border-radius: 20px;
+    border: none;
+}
+
+.input_n {
+    width: 100%;
+    height: 100%;
+    border-radius: 20px;
+    border: none;
+}
+
+.input_btn {
+    width: 87px;
+    height: 54px;
+    opacity: 0.3;
+    background-color: #08439c;
+    border-radius: 10px;
+}
+
+.insub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+@media only screen and (max-width:751px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        max-height: 50px;
+        gap: 200px;
+    }
+
+    .sign_btn {
+        width: 100px;
+        height: 50px;
+        background-color: #0D6EFD;
+        border-radius: 10px;
+    }
+
+    .sign_btn:hover {
+        background-color: #08439c;
+        cursor: pointer;
+    }
+
+    #head1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 751px;
+        min-height: 66px;
+        background-color: #F8F9FA;
+    }
+}
+
+@media only screen and (max-width:358px) {
+    .container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        max-height: 50px;
+        gap: 30px;
+    }
+
+    .sign_btn {
+        width: 100px;
+        height: 50px;
+        background-color: #0D6EFD;
+        border-radius: 10px;
+    }
+
+    .sign_btn:hover {
+        background-color: #08439c;
+        cursor: pointer;
+    }
+
+    #head1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        max-width: 358px;
+        min-height: 66px;
+        background-color: #F8F9FA;
+    }
+}
+
+@media only screen and (max-width:751px) {
+    #head2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+        min-height: 612px;
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+        object-fit: cover;
+    }
+
+    .head2_div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: skyblue;
+        opacity: 0.2;
+        z-index: -1;
+    }
+
+    .generate {
+        width: 536px;
+        height: 116px;
+        color: white;
+        font-size: 40px;
+        margin: 0px 0px 48px;
+        text-align: center;
+    }
+
+    .umumi {
+        width: 636px;
+        height: 228px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input1 {
+        width: 532px;
+        height: 64px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .input_n {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .input_btn {
+        width: 87px;
+        height: 54px;
+        opacity: 0.3;
+        background-color: #08439c;
+        border-radius: 10px;
+    }
+
+    .insub {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px
+    }
+}
+
+@media only screen and (max-width:358px) {
+    #head2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        position: relative;
+        max-width: 100%;
+        min-height: 612px;
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-masthead.jpg");
+        object-fit: cover;
+    }
+
+    .head2_div {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: skyblue;
+        opacity: 0.2;
+        z-index: -1;
+    }
+
+    .generate {
+        width: 100%;
+        height: 116px;
+        color: white;
+        font-size: 40px;
+        margin: 0px 0px 48px;
+        text-align: center;
+    }
+
+    .umumi {
+        width: 357px;
+        height: 228px;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .input1 {
+        width: 357px;
+        height: 64px;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .input_n {
+        width: 100%;
+        height: 100%;
+        border-radius: 20px;
+        border: none;
+    }
+
+    .input_btn {
+        width: 87px;
+        height: 54px;
+        opacity: 0.3;
+        background-color: #08439c;
+        border-radius: 10px;
+    }
+
+    .insub {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 20px
+    }
+}
+
+/* head3 */
+#head3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 100%;
+    min-height: 453px;
+    background-color: #F8F9FA;
+    gap: 10px;
+}
+
+.head3_icon1 {
+    font-size: 50px;
+    color: #08439c;
+}
+
+.head3_about1 {
+    color: black;
+    font-size: xx-large;
+}
+
+.head3_about2 {
+    text-align: center;
+    font-size: larger;
+    width: 300px;
+    height: 50px;
+}
+
+.umumi_head3_1 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.umumi_head3_2 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.umumi_head3_3 {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+
+}
+
+.umumi_head3 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 200px;
+
+}
+
+/* head3 responsive */
+@media only screen and (max-width:751px) {
+
+
+    #head3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        min-height: 453px;
+        background-color: #F8F9FA;
+        gap: 10px;
+    }
+
+    .head3_icon1 {
+        font-size: 50px;
+        color: #08439c;
+    }
+
+    .head3_about1 {
+        color: black;
+        font-size: xx-large;
+    }
+
+    .head3_about2 {
+        text-align: center;
+        font-size: larger;
+        width: 300px;
+        height: 50px;
+    }
+
+    .umumi_head3_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .umumi_head3_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .umumi_head3_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .umumi_head3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 70px;
+
+    }
+
+
+
+}
+
+@media only screen and (max-width:358px) {
+
+    #head3 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+        max-width: 100%;
+        min-height: 453px;
+        background-color: #F8F9FA;
+        gap: 10px;
+    }
+
+    .head3_icon1 {
+        font-size: 50px;
+        color: #08439c;
+    }
+
+    .head3_about1 {
+        color: black;
+        font-size: xx-large;
+    }
+
+    .head3_about2 {
+        text-align: center;
+        font-size: larger;
+        width: 300px;
+        height: 50px;
+    }
+
+    .umumi_head3_1 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .umumi_head3_2 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .umumi_head3_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+    .umumi_head3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        align-items: center;
+        gap: 70px;
+
+    }
+
+}
+
+/* head4 */
+#head4 {
+    max-width: 100%;
+    min-height: 1500px;
+}
+
+.umumi_head4_1_1_1 {
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    color: black;
+}
+
+.umumi_head4_1_1_2 {
+    font-size: 20px;
+    width: 550px;
+    height: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ;
+    margin-left: 150px;
+
+}
+
+.umumi_head4_1_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 800px;
+    height: 450px;
+
+}
+
+.umumi_head4_1_2 {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg");
+    width: 800px;
+    height: 450px;
+
+}
+
+.umumi_head4_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* //////////////////// */
+.umumi_head4_1_1_1 {
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    color: black;
+}
+
+.umumi_head4_1_1_2 {
+    font-size: 20px;
+    width: 550px;
+    height: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ;
+    margin-left: 150px;
+
+}
+
+.umumi_head4_1_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 800px;
+    height: 450px;
+
+}
+
+.umumi_head4_1_2 {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg");
+    width: 800px;
+    height: 500px;
+
+}
+
+.umumi_head4_1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* //////////////////// */
+.umumi_head4_2_1_1 {
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    color: black;
+}
+
+.umumi_head4_2_2_2 {
+    font-size: 20px;
+    width: 550px;
+    height: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ;
+    margin-left: 150px;
+
+}
+
+.umumi_head4_2_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 800px;
+    height: 450px;
+
+}
+
+.umumi_head4_2_2 {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg");
+    width: 800px;
+    height: 500px;
+
+}
+
+.umumi_head4_2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* ////////////////////////// */
+.umumi_head4_3_1_1 {
+    font-size: 30px;
+    width: 400px;
+    height: 50px;
+    color: black;
+}
+
+.umumi_head4_3_1_2 {
+    font-size: 20px;
+    width: 550px;
+    height: 50px;
+    color: black;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    ;
+    margin-left: 150px;
+
+}
+
+.umumi_head4_3_1 {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    gap: 5px;
+    width: 800px;
+    height: 450px;
+
+}
+
+.umumi_head4_3_2 {
+    background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg");
+    width: 800px;
+    height: 500px;
+    object-fit: cover;
+
+}
+
+.umumi_head4_3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* head4 responsive */
+@media only screen and (max-width:751px) {
+
+    #head4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        min-height: 1500px;
+    }
+
+    .umumi_head4_1_1_1 {
+        font-size: 30px;
+        width: 400px;
+        height: 50px;
+        color: black;
+    }
+
+    .umumi_head4_1_1_2 {
+        font-size: 20px;
+        width: 550px;
+        height: 50px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ;
+        margin-left: 150px;
+
+    }
+
+    .umumi_head4_1_1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 800px;
+        height: 450px;
+
+    }
+
+    .umumi_head4_1_2 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg");
+        width: 800px;
+        height: 450px;
+
+
+    }
+
+    .umumi_head4_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* //////////////////// */
+    .umumi_head4_1_1_1 {
+        font-size: 30px;
+        width: 400px;
+        height: 50px;
+        color: black;
+    }
+
+    .umumi_head4_1_1_2 {
+        font-size: 20px;
+        width: 550px;
+        height: 50px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ;
+        margin-left: 150px;
+
+    }
+
+    .umumi_head4_1_1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 800px;
+        height: 450px;
+
+    }
+
+    .umumi_head4_1_2 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg");
+        width: 800px;
+        height: 500px;
+
+    }
+
+    .umumi_head4_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* //////////////////// */
+    .umumi_head4_2_1_1 {
+        font-size: 30px;
+        width: 400px;
+        height: 50px;
+        color: black;
+    }
+
+    .umumi_head4_2_2_2 {
+        font-size: 20px;
+        width: 550px;
+        height: 50px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ;
+        margin-left: 150px;
+
+    }
+
+    .umumi_head4_2_1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 800px;
+        height: 450px;
+
+    }
+
+    .umumi_head4_2_2 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg");
+        width: 800px;
+        height: 500px;
+
+    }
+
+    .umumi_head4_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* ////////////////////////// */
+    .umumi_head4_3_1_1 {
+        font-size: 30px;
+        width: 400px;
+        height: 50px;
+        color: black;
+    }
+
+    .umumi_head4_3_1_2 {
+        font-size: 20px;
+        width: 550px;
+        height: 50px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ;
+        margin-left: 150px;
+
+    }
+
+    .umumi_head4_3_1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 800px;
+        height: 450px;
+
+    }
+
+    .umumi_head4_3_2 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg");
+        width: 800px;
+        height: 500px;
+        object-fit: cover;
+
+    }
+
+    .umumi_head4_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+
+
+
+}
+
+@media only screen and (max-width:358px) {
+
+
+    #head4 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        max-width: 100%;
+        min-height: 1500px;
+    }
+
+    .umumi_head4_1_1_1 {
+        font-size: 30px;
+        width: 400px;
+        height: 50px;
+        color: black;
+    }
+
+    .umumi_head4_1_1_2 {
+        font-size: 20px;
+        width: 550px;
+        height: 50px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ;
+        margin-left: 150px;
+
+    }
+
+    .umumi_head4_1_1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 800px;
+        height: 450px;
+
+    }
+
+    .umumi_head4_1_2 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg");
+        width: 800px;
+        height: 450px;
+
+
+    }
+
+    .umumi_head4_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* //////////////////// */
+    .umumi_head4_1_1_1 {
+        font-size: 30px;
+        width: 400px;
+        height: 50px;
+        color: black;
+    }
+
+    .umumi_head4_1_1_2 {
+        font-size: 20px;
+        width: 550px;
+        height: 50px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ;
+        margin-left: 150px;
+
+    }
+
+    .umumi_head4_1_1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 800px;
+        height: 450px;
+
+    }
+
+    .umumi_head4_1_2 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-1.jpg");
+        width: 800px;
+        height: 500px;
+
+    }
+
+    .umumi_head4_1 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    /* //////////////////// */
+    .umumi_head4_2_1_1 {
+        font-size: 30px;
+        width: 400px;
+        height: 50px;
+        color: black;
+    }
+
+    .umumi_head4_2_2_2 {
+        font-size: 20px;
+        width: 550px;
+        height: 50px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ;
+        margin-left: 150px;
+
+    }
+
+    .umumi_head4_2_1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 800px;
+        height: 450px;
+
+    }
+
+    .umumi_head4_2_2 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-2.jpg");
+        width: 800px;
+        height: 500px;
+
+    }
+
+    .umumi_head4_2 {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-direction: column;
+    }
+
+    /* ////////////////////////// */
+    .umumi_head4_3_1_1 {
+        font-size: 30px;
+        width: 400px;
+        height: 50px;
+        color: black;
+    }
+
+    .umumi_head4_3_1_2 {
+        font-size: 20px;
+        width: 550px;
+        height: 50px;
+        color: black;
+        font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        ;
+        margin-left: 150px;
+
+    }
+
+    .umumi_head4_3_1 {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+        align-items: center;
+        gap: 5px;
+        width: 800px;
+        height: 450px;
+
+    }
+
+    .umumi_head4_3_2 {
+        background-image: url("https://startbootstrap.github.io/startbootstrap-landing-page/assets/img/bg-showcase-3.jpg");
+        width: 800px;
+        height: 500px;
+        object-fit: cover;
+
+    }
+
+    .umumi_head4_3 {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+}
+
+/* head5 */
+#head5 {
+    max-width: 100%;
+    min-height: 622px;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px;
+}
+
+.head5_about {
+    font-size: 20px;
+    color: black;
+}
+
+.head5_img1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.img1 {
+    width: 192px;
+    height: 192px;
+    border-radius: 100px;
+}
+
+.head5_img1_h5 {
+    font-size: 20px;
+}
+
+.head5_img1_p {
+    font-size: 16px;
+    width: 280px;
+    height: 70px;
+}
+
+.head5_img2 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head5_img3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.head5_img2_p {
+    width: 260px;
+    height: 72px;
+    font-size: 16px;
+    text-align: center;
+}
+
+.head5_img3_p {
+    width: 260px;
+    height: 70px;
+    text-align: center;
+}
+
+.head5_umumi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 200px;
+}
+
+.head5_img2_h5 {
+    font-size: 20px;
+}
+
+.head5_img3_h5 {
+    font-size: 20px;
+}
+
+#head6 {
+    max-width: 100%;
+    min-height: 350px;
+    position: relative;
+
+}
+
+.head6_bg_img {
+    max-width: 100%;
+    height: 350px;
+    object-fit: cover;
+}
+
+.head6_umumi_h2 {
+    font-size: 25px;
+    color: #FFFFFF;
+}
+
+.head6_umumi_insub_input {
+    width: 508px;
+    height: 64px;
+    padding: 16px 20px;
+    border-radius: 10px;
+}
+
+.head6_umumi_insub_div {
+    width: 100px;
+    height: 64px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F8F9FA;
+    background-color: #0D6EFD;
+    font-size: 20px;
+    border-radius: 10px;
+}
+
+.head6_umumi_insub {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.head6_umumi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+    position: absolute;
+    top: 130px;
+    left: 450px;
+}
+/* ///////////////////////////////// */
+#footer{
+    max-width: 100%;
+    min-height: 181px;
+    background-color: #F8F9FA;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.footer_umumi_ul{
+    display: flex;
+    gap: 30px;
+    color: #0D6EFD;
+    text-decoration: underline;
+    font-size: 16px;
+    height: 21px;
+    width: 636px;
+    font-size: 20px;
+}
+.footer_umumi_1{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+.footer_umumi_2{
+    color: #0D6EFD;
+    font-size: 28px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.footer_umumi{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 500px;
+}
